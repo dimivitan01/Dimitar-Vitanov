@@ -13,7 +13,7 @@ body{display:flex;justify-content:center;padding:20px 14px 36px;background:radia
 .shell{width:min(100%,480px)}.card{position:relative;overflow:hidden;border:1px solid var(--line);border-radius:28px;padding:20px;background:linear-gradient(180deg,rgba(10,35,69,.96),rgba(5,17,34,.98));box-shadow:0 24px 80px #0009}
 .card:before{content:"";position:absolute;right:-120px;top:-120px;width:270px;height:270px;border-radius:50%;background:#25cfe516;filter:blur(14px)}
 .logo-panel{position:relative;z-index:1;display:flex;justify-content:center;align-items:center;background:#f7fbff;border-radius:20px;padding:14px 20px 12px;min-height:132px;overflow:hidden}
-.logo{display:block;width:min(76%,245px);height:auto;margin:0 auto}
+.logo{display:block;width:min(72%,240px);height:auto;max-height:none;object-fit:contain;margin:0 auto}
 .hero{position:relative;z-index:1;padding:25px 2px 17px}.eyebrow{font-size:11px;letter-spacing:1.8px;text-transform:uppercase;color:var(--cyan);font-weight:850}.hero h1{font-size:34px;line-height:1.05;margin:8px 0 10px;letter-spacing:-.7px}.role{font-size:15px;line-height:1.55;color:var(--muted)}.role strong{color:#fff}.chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:17px}.chip{font-size:12px;padding:7px 10px;border:1px solid #244b70;border-radius:999px;color:#d7efff;background:#0b2949aa}
 .primary,.btn{transition:transform .15s ease,border-color .15s ease}.primary:active,.btn:active{transform:scale(.985)}
 .primary{display:block;margin:18px 0 10px;padding:15px;border-radius:15px;text-align:center;text-decoration:none;background:linear-gradient(135deg,var(--cyan),var(--cyan2));color:#041326;font-weight:900;box-shadow:0 8px 28px #18c8ff2f}
@@ -26,31 +26,7 @@ body{display:flex;justify-content:center;padding:20px 14px 36px;background:radia
 <body>
 <main class="shell"><section class="card">
 <div class="logo-panel" aria-label="GetNexa">
-<svg class="logo" viewBox="0 0 510 343" role="img" aria-label="GetNexa logo" xmlns="http://www.w3.org/2000/svg">
-<rect width="510" height="343" fill="#fff"/>
-<!-- top-left arm -->
-<polygon points="154,15 243,73 243,131 154,72" fill="#00182a"/>
-<!-- top-right cyan arm -->
-<polygon points="262,73 351,15 351,72 262,131" fill="#18cadd"/>
-<!-- middle-left chevron -->
-<polygon points="110,94 165,94 243,151 243,190 165,211 110,211 151,153" fill="#00182a"/>
-<!-- middle-right chevron -->
-<polygon points="395,94 340,94 262,151 262,190 340,211 395,211 354,153" fill="#00182a"/>
-<!-- lower-left arm -->
-<polygon points="154,224 243,174 243,221 154,278" fill="#00182a"/>
-<!-- lower-right arm -->
-<polygon points="262,174 351,224 351,278 262,221" fill="#00182a"/>
-<!-- wordmark recreated as vector paths so it stays visually stable -->
-<g fill="#00182a" transform="translate(50 286)">
-<path d="M0 10Q0 0 11 0H55V12H17Q13 12 13 17V34Q13 39 18 39H43V30H27V20H57V50H11Q0 50 0 39Z"/>
-<path d="M66 0H121V12H79V19H116V30H79V39H122V50H66Z"/>
-<path d="M128 0H187V13H164V50H151V13H128Z"/>
-<path d="M194 0H209L243 32V0H256V50H241L207 18V50H194Z"/>
-<path d="M266 0H321V12H279V19H316V30H279V39H322V50H266Z"/>
-<path d="M329 0H346L363 18L380 0H397L372 25L397 50H380L363 32L346 50H329L354 25Z"/>
-<path d="M401 50L427 0H444L470 50H455L449 38H422L416 50ZM428 27H443L435.5 12Z"/>
-</g>
-</svg>
+<img class="logo" src="./getnexa-logo.png?v=original" alt="GetNexa logo">
 </div>
 <div class="hero">
 <div class="eyebrow">Digital Business Card</div>
