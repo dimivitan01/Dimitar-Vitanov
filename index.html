@@ -13,7 +13,7 @@ body{display:flex;justify-content:center;padding:20px 14px 36px;background:radia
 .shell{width:min(100%,480px)}.card{position:relative;overflow:hidden;border:1px solid var(--line);border-radius:28px;padding:20px;background:linear-gradient(180deg,rgba(10,35,69,.96),rgba(5,17,34,.98));box-shadow:0 24px 80px #0009}
 .card:before{content:"";position:absolute;right:-120px;top:-120px;width:270px;height:270px;border-radius:50%;background:#25cfe516;filter:blur(14px)}
 .logo-panel{position:relative;z-index:1;display:flex;justify-content:center;align-items:center;background:#f7fbff;border-radius:20px;padding:14px 20px 12px;min-height:132px;overflow:hidden}
-.logo{display:block;width:min(100%,300px);height:auto}
+.logo{display:block;width:min(76%,245px);height:auto;margin:0 auto}
 .hero{position:relative;z-index:1;padding:25px 2px 17px}.eyebrow{font-size:11px;letter-spacing:1.8px;text-transform:uppercase;color:var(--cyan);font-weight:850}.hero h1{font-size:34px;line-height:1.05;margin:8px 0 10px;letter-spacing:-.7px}.role{font-size:15px;line-height:1.55;color:var(--muted)}.role strong{color:#fff}.chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:17px}.chip{font-size:12px;padding:7px 10px;border:1px solid #244b70;border-radius:999px;color:#d7efff;background:#0b2949aa}
 .primary,.btn{transition:transform .15s ease,border-color .15s ease}.primary:active,.btn:active{transform:scale(.985)}
 .primary{display:block;margin:18px 0 10px;padding:15px;border-radius:15px;text-align:center;text-decoration:none;background:linear-gradient(135deg,var(--cyan),var(--cyan2));color:#041326;font-weight:900;box-shadow:0 8px 28px #18c8ff2f}
@@ -26,16 +26,17 @@ body{display:flex;justify-content:center;padding:20px 14px 36px;background:radia
 <body>
 <main class="shell"><section class="card">
 <div class="logo-panel" aria-label="GetNexa">
-<svg class="logo" viewBox="0 0 510 300" role="img" aria-label="GetNexa logo" xmlns="http://www.w3.org/2000/svg">
-  <g fill="#061a30">
-    <path d="M155 12L243 70v56l-88-57z"/>
-    <path d="M109 92h78l56 58-54 59h-80l46-59z"/>
-    <path d="M154 215l89-57v60l-89 58z"/>
-    <path d="M350 92h46l-46 58 46 59h-78l-55-59 55-58z"/>
-    <path d="M263 158l88 57v61l-88-58z"/>
-  </g>
-  <path fill="#25cfe5" d="M263 70l88-58v57l-88 57z"/>
-  <text x="255" y="294" text-anchor="middle" fill="#061a30" font-family="Arial Black,Arial,sans-serif" font-size="60" font-weight="900" letter-spacing="-2">GETNEXA</text>
+<svg class="logo" viewBox="0 0 510 343" role="img" aria-label="GetNexa logo" xmlns="http://www.w3.org/2000/svg">
+<rect width="510" height="343" fill="#fff"/>
+<g fill="#00172a">
+<path d="M154 15 L243 73 L243 132 L154 72 Z"/>
+<path d="M109 94 L165 94 L243 151 L243 191 L165 211 L109 211 L151 153 Z"/>
+<path d="M154 224 L243 174 L243 221 L154 278 Z"/>
+<path d="M395 94 L339 94 L262 151 L262 191 L339 211 L395 211 L354 153 Z"/>
+<path d="M262 174 L351 224 L351 278 L262 221 Z"/>
+</g>
+<path d="M262 73 L351 15 L351 72 L262 132 Z" fill="#18c9dd"/>
+<text x="255" y="334" text-anchor="middle" fill="#00172a" font-family="Arial Black,Arial,sans-serif" font-size="61" font-weight="900" letter-spacing="-3">GETNEXA</text>
 </svg>
 </div>
 <div class="hero">
